@@ -1,7 +1,7 @@
-import { sveltekitHelmet } from "../src";
+import helmet from "../src";
 
 describe("test", () => {
-  it("test", () => {
-    sveltekitHelmet();
+  it("default", () => {
+    helmet();
   });
 });
