@@ -1,0 +1,47 @@
+{
+  "name": "sveltekit-helmet",
+  "author": "Skyf0l <skyf0lmails@proton.me>",
+  "description": "Security header middleware collection for SvelteKit",
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "./lib/index.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "test:watch": "jest --watch",
+    "test": "jest --coverage"
+  },
+  "keywords": [
+    "security",
+    "headers",
+    "sveltekit",
+    "csp",
+    "hsts"
+  ],
+  "repository": {
+    "url": "https://github.com/skyf0l/sveltekit-helmet"
+  },
+  "engines": {
+    "node": ">=18.0"
+  },
+  "dependencies": {
+    "helmet": "^6.0.1"
+  },
+  "devDependencies": {
+    "@sveltejs/kit": "^2.5.1",
+    "@types/jest": "^29.5.12",
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "jest": "^29.7.0",
+    "prettier": "^3.2.5",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  }
+}
