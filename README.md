@@ -1,5 +1,8 @@
 # sveltekit-helmet
 
+[![Version](https://img.shields.io/npm/v/sveltekit-helmet.svg)](https://www.npmjs.com/package/sveltekit-helmet)
+[![Downloads](https://img.shields.io/npm/dm/sveltekit-helmet.svg)](https://www.npmjs.com/package/sveltekit-helmet)
+
 sveltekit-helmet is a wrapper for [helmet](https://github.com/helmetjs/helmet)
 to work with [SvelteKit](https://github.com/sveltejs/kit). It provides important
 security headers to make your app more secure by default.
