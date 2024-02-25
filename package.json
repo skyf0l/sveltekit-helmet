@@ -5,6 +5,7 @@
   "license": "MIT",
   "version": "1.0.1",
   "main": "./lib/index.js",
+  "type": "module",
   "files": [
     "lib/**/*"
   ],
