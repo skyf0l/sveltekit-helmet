@@ -15,13 +15,13 @@ function extendResponse(
   return res;
 }
 
-export default (options?: HelmetOptions) => {
+export default (options?: HelmetOptions): Handle => {
   const middleware = helmet(options);
 
   // `req` is never used, but it's required by the `helmet` middleware
   const req = {} as IncomingMessage;
 
-  return (async ({ event, resolve }) => {
+  return async ({ event, resolve }) => {
     const response = await resolve(event);
     const extendedResponse = extendResponse(response);
 
@@ -30,5 +30,5 @@ export default (options?: HelmetOptions) => {
         err ? reject(err) : resolve(response),
       );
     });
-  }) satisfies Handle;
+  };
 };
