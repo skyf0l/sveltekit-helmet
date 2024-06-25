@@ -5,6 +5,14 @@
 
 version: 2
 updates:
+- package-ecosystem: "github-actions"
+  directory: "/"
+  schedule:
+    interval: "weekly"
+    day: saturday
+    time: "08:00"
+    timezone: Europe/Paris
+
 - package-ecosystem: "npm"
   versioning-strategy: increase
   directory: "/"
@@ -16,9 +24,10 @@ updates:
     time: "08:00"
     timezone: Europe/Paris
   groups:
-    npm:
-      patterns:
-      - "*"
+    dependencies:
+      dependency-type: production
+    dev-dependencies:
+      dependency-type: development
   ignore:
   # Ignore all updates for eslint 9 and above
   - dependency-name: "eslint"
