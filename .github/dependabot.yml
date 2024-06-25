@@ -19,3 +19,9 @@ updates:
     npm:
       patterns:
       - "*"
+  ignore:
+  # Ignore all updates for eslint 9 and above
+  - dependency-name: "eslint"
+    versions:
+    - '>= 9'
+
