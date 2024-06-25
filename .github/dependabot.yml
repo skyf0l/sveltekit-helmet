@@ -5,7 +5,17 @@
 
 version: 2
 updates:
-  - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/" # Location of package manifests
-    schedule:
-      interval: "weekly"
+- package-ecosystem: "npm"
+  versioning-strategy: increase
+  directory: "/"
+  reviewers:
+  - skyf0l
+  schedule:
+    interval: weekly
+    day: saturday
+    time: "08:00"
+    timezone: Europe/Paris
+  groups:
+    npm:
+      patterns:
+      - "*"
