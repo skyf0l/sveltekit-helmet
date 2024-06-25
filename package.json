@@ -30,7 +30,7 @@
     "node": ">=18.0"
   },
   "dependencies": {
-    "helmet": "^6.0.1"
+    "helmet": "^7.1.0"
   },
   "devDependencies": {
     "@sveltejs/kit": "^2.5.1",
