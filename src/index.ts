@@ -15,7 +15,13 @@ function extendResponse(
   return res;
 }
 
-export default (options?: HelmetOptions): Handle => {
+export default (options: Readonly<HelmetOptions> = {}): Handle => {
+  if ("event" in options) {
+    throw new Error(
+      "It appears you have done something like `export const handle = helmet`, but it should be `export const handle = helmet()`.",
+    );
+  }
+
   const middleware = helmet(options);
 
   // `req` is never used, but it's required by the `helmet` middleware
