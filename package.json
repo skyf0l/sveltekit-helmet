@@ -15,6 +15,8 @@
     "format": "prettier --write .",
     "test:watch": "jest --watch",
     "test": "jest --coverage",
+    "test:e2e": "npm --prefix e2e/ run test:e2e",
+    "test:e2e:install": "npm --prefix e2e/ install && npm --prefix e2e/ exec playwright install --with-deps",
     "prepublishOnly": "npm run build"
   },
   "keywords": [

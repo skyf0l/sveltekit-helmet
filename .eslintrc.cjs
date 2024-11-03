@@ -17,6 +17,7 @@ module.exports = {
     "*.config.cjs",
     "*.config.mjs",
     "*.config.ts",
+    "e2e/**",
   ],
   rules: {
     "prettier/prettier": "warn",
