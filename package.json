@@ -18,11 +18,14 @@
     "prepublishOnly": "npm run build"
   },
   "keywords": [
+    "sveltekit",
+    "helmet",
     "security",
     "headers",
-    "sveltekit",
+    "x-frame-options",
     "csp",
-    "hsts"
+    "hsts",
+    "clickjack"
   ],
   "repository": {
     "url": "https://github.com/skyf0l/sveltekit-helmet"
