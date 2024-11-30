@@ -16,14 +16,17 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
+          cache: "pnpm"
+      - run: pnpm install
 
-      - run: npm install
-      - run: npm run lint
-      - run: npm run test
-      - run: npm run build
+      - run: pnpm lint
+      - run: pnpm test
+      - run: pnpm build
 
-      - run: npm run test:e2e:install
-      - run: npm run test:e2e
+      - run: pnpm test:e2e:install
+      - run: pnpm test:e2e
