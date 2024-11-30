@@ -9,10 +9,10 @@
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
     "test:e2e": "playwright test",
-    "test": "npm run test:e2e"
+    "test:e2e:install": "playwright install --with-deps"
   },
   "dependencies": {
-    "sveltekit-helmet": "../"
+    "sveltekit-helmet": "workspace:*"
   },
   "devDependencies": {
     "@playwright/test": "^1.45.3",

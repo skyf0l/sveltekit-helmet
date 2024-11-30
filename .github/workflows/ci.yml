@@ -19,11 +19,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
+          cache: "pnpm"
 
-      - run: npm install
-      - run: npm run lint
-      - run: npm run test
-      - run: npm run build
+      - run: pnpm install
 
-      - run: npm run test:e2e:install
-      - run: npm run test:e2e
+      - run: pnpm lint
+      - run: pnpm test
+      - run: pnpm build
+
+      - run: pnpm test:e2e:install
+      - run: pnpm test:e2e
