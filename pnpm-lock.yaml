@@ -17,7 +17,7 @@ importers:
         version: 9.24.0
       '@sveltejs/kit':
         specifier: ^2.6.1
-        version: 2.20.6(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.5)(vite@6.2.4(@types/node@22.13.15)))(svelte@5.25.5)(vite@6.2.4(@types/node@22.13.15))
+        version: 2.20.7(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.5)(vite@6.2.4(@types/node@22.13.15)))(svelte@5.25.5)(vite@6.2.4(@types/node@22.13.15))
       '@types/jest':
         specifier: ^29.5.13
         version: 29.5.14
@@ -693,8 +693,8 @@ packages:
       svelte: ^4.0.0 || ^5.0.0-next.0
       vite: ^5.0.3 || ^6.0.0
 
-  '@sveltejs/kit@2.20.6':
-    resolution: {integrity: sha512-ImUkSQ//Xf4N9r0HHAe5vRA7RyQ7U1Ue1YUT235Ig+IiIqbsixEulHTHrP5LtBiC8xOkJoPZQ1VZ/nWHNOaGGw==}
+  '@sveltejs/kit@2.20.7':
+    resolution: {integrity: sha512-dVbLMubpJJSLI4OYB+yWYNHGAhgc2bVevWuBjDj8jFUXIJOAnLwYP3vsmtcgoxNGUXoq0rHS5f7MFCsryb6nzg==}
     engines: {node: '>=18.13'}
     hasBin: true
     peerDependencies:
@@ -2706,7 +2706,7 @@ snapshots:
       svelte: 5.25.5
       vite: 6.2.4(@types/node@22.13.15)
 
-  '@sveltejs/kit@2.20.6(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.5)(vite@6.2.4(@types/node@22.13.15)))(svelte@5.25.5)(vite@6.2.4(@types/node@22.13.15))':
+  '@sveltejs/kit@2.20.7(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.5)(vite@6.2.4(@types/node@22.13.15)))(svelte@5.25.5)(vite@6.2.4(@types/node@22.13.15))':
     dependencies:
       '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.25.5)(vite@6.2.4(@types/node@22.13.15))
       '@types/cookie': 0.6.0
