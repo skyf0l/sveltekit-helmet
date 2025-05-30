@@ -31,7 +31,7 @@ importers:
         specifier: ^10.1.5
         version: 10.1.5(eslint@9.27.0)
       globals:
-        specifier: ^16.0.0
+        specifier: ^16.2.0
         version: 16.2.0
       jest:
         specifier: ^29.7.0
