@@ -1,7 +1,7 @@
 # sveltekit-helmet
 
 [![Version](https://img.shields.io/npm/v/sveltekit-helmet.svg)](https://www.npmjs.com/package/sveltekit-helmet)
-[![Helmet version](https://img.shields.io/badge/Helmet%20version-latest-g.svg)](https://github.com/helmetjs/helmet)
+[![Helmet version](https://img.shields.io/badge/Helmet%20version-8.1.0-g.svg)](https://github.com/helmetjs/helmet)
 [![Downloads](https://img.shields.io/npm/dm/sveltekit-helmet.svg)](https://www.npmjs.com/package/sveltekit-helmet)
 
 sveltekit-helmet is a wrapper for [helmet](https://github.com/helmetjs/helmet)
