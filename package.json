@@ -32,9 +32,6 @@
   "repository": {
     "url": "https://github.com/skyf0l/sveltekit-helmet"
   },
-  "engines": {
-    "node": ">=18.20.8"
-  },
   "dependencies": {
     "helmet": "^8.1.0"
   },
