@@ -56,7 +56,7 @@ importers:
         version: link:..
     devDependencies:
       '@playwright/test':
-        specifier: ^1.45.3
+        specifier: ^1.52.0
         version: 1.52.0
       '@sveltejs/adapter-auto':
         specifier: ^6.0.0
