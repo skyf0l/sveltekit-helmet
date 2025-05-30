@@ -22,7 +22,7 @@ importers:
         specifier: ^2.6.1
         version: 2.21.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.33.10)(vite@6.3.5(@types/node@22.15.3)))(svelte@5.33.10)(vite@6.3.5(@types/node@22.15.3))
       '@types/jest':
-        specifier: ^29.5.13
+        specifier: ^29.5.14
         version: 29.5.14
       eslint:
         specifier: ^9.14.0
