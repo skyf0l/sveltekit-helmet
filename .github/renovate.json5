@@ -7,4 +7,11 @@
     ":automergeMajor",
     ":maintainLockFilesMonthly",
   ],
+  rangeStrategy: "bump",
+  packageRules: [
+    {
+      matchPackageNames: ["helmet"],
+      automerge: false,
+    },
+  ],
 }
