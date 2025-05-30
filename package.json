@@ -3,7 +3,7 @@
   "author": "Skyf0l",
   "description": "Security header middleware collection for SvelteKit",
   "license": "MIT",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "main": "./lib/index.js",
   "type": "module",
   "files": [
