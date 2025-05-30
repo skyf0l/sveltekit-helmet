@@ -59,7 +59,7 @@ importers:
         specifier: ^1.52.0
         version: 1.52.0
       '@sveltejs/adapter-auto':
-        specifier: ^6.0.0
+        specifier: ^6.0.1
         version: 6.0.1(@sveltejs/kit@2.21.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.33.10)(vite@6.3.5(@types/node@22.15.18)))(svelte@5.33.10)(vite@6.3.5(@types/node@22.15.18)))
       '@sveltejs/kit':
         specifier: ^2.0.0
