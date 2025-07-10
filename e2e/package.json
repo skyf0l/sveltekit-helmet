@@ -16,13 +16,13 @@
     "sveltekit-helmet": "workspace:*"
   },
   "devDependencies": {
-    "@playwright/test": "^1.53.2",
+    "@playwright/test": "^1.54.0",
     "@sveltejs/adapter-auto": "^6.0.1",
-    "@sveltejs/kit": "^2.22.4",
+    "@sveltejs/kit": "^2.22.5",
     "@sveltejs/vite-plugin-svelte": "^5.1.0",
     "svelte": "^5.35.5",
     "svelte-check": "^4.2.2",
     "typescript": "^5.8.3",
-    "vite": "^7.0.3"
+    "vite": "^7.0.4"
   }
 }
