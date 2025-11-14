@@ -36,7 +36,7 @@
     "helmet": "^8.1.0"
   },
   "devDependencies": {
-    "@eslint/compat": "^1.4.1",
+    "@eslint/compat": "^2.0.0",
     "@eslint/js": "^9.39.1",
     "@sveltejs/kit": "^2.48.5",
     "@types/jest": "^30.0.0",
