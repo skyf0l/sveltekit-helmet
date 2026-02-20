@@ -12,7 +12,9 @@
   packageRules: [
     {
       matchPackageNames: ["helmet"],
+      matchUpdateTypes: ["major", "minor", "patch"],
       automerge: false,
+      reviewers: ["Skyf0l"],
     },
   ],
 }
