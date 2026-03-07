@@ -36,11 +36,11 @@
     "helmet": "^8.1.0"
   },
   "devDependencies": {
-    "@eslint/compat": "^2.0.2",
+    "@eslint/compat": "^2.0.3",
     "@eslint/js": "^10.0.1",
     "@sveltejs/kit": "^2.53.4",
     "@types/jest": "^30.0.0",
-    "eslint": "^10.0.2",
+    "eslint": "^10.0.3",
     "eslint-config-prettier": "^10.1.8",
     "globals": "^17.4.0",
     "jest": "^30.2.0",
