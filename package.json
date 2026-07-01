@@ -33,21 +33,21 @@
     "url": "https://github.com/skyf0l/sveltekit-helmet"
   },
   "dependencies": {
-    "helmet": "^8.1.0"
+    "helmet": "^8.2.0"
   },
   "devDependencies": {
     "@eslint/compat": "^2.1.0",
     "@eslint/js": "^10.0.1",
-    "@sveltejs/kit": "^2.60.1",
+    "@sveltejs/kit": "^2.69.0",
     "@types/jest": "^30.0.0",
-    "eslint": "^10.4.0",
+    "eslint": "^10.6.0",
     "eslint-config-prettier": "^10.1.8",
-    "globals": "^17.6.0",
+    "globals": "^17.7.0",
     "jest": "^30.4.2",
-    "prettier": "^3.8.3",
+    "prettier": "^3.9.4",
     "ts-jest": "^29.4.11",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.59.4"
+    "typescript-eslint": "^8.62.1"
   },
-  "packageManager": "pnpm@10.33.4"
+  "packageManager": "pnpm@10.34.4"
 }
