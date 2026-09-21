@@ -3,7 +3,7 @@
   "author": "Skyf0l",
   "description": "Security header middleware collection for SvelteKit",
   "license": "MIT",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "main": "./lib/index.js",
   "type": "module",
   "files": [
@@ -33,7 +33,7 @@
     "url": "https://github.com/skyf0l/sveltekit-helmet"
   },
   "dependencies": {
-    "helmet": "^8.1.0"
+    "helmet": "^8.3.0"
   },
   "devDependencies": {
     "@eslint/compat": "^2.1.0",

@@ -4,15 +4,32 @@
     "config:recommended",
     ":configMigration",
     ":label(dependencies)",
-    "group:allNonMajor",
-    ":automergeMajor",
     ":maintainLockFilesMonthly",
   ],
   rangeStrategy: "bump",
+  // Batch everything into weekly PRs, merged automatically once CI is green.
+  // Security updates (vulnerabilityAlerts) still bypass the schedule.
+  schedule: ["before 6am on monday"],
+  automerge: true,
+  separateMajorMinor: false,
   packageRules: [
     {
+      description: "One weekly PR for all node dependencies (major included)",
+      matchManagers: ["npm"],
+      groupName: "node dependencies",
+      groupSlug: "node-deps",
+    },
+    {
+      description: "One weekly PR for all GitHub Actions",
+      matchManagers: ["github-actions"],
+      groupName: "github actions",
+      groupSlug: "github-actions",
+    },
+    {
+      description: "helmet is the runtime dependency: review manually and cut a release",
       matchPackageNames: ["helmet"],
-      matchUpdateTypes: ["major", "minor", "patch"],
+      groupName: "helmet",
+      groupSlug: "helmet",
       automerge: false,
       reviewers: ["Skyf0l"],
     },
